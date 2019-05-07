@@ -155,6 +155,8 @@ class monthWidgetState extends State<monthWidget> {
                                       widget.month.toString() +
                                       "/" +
                                       dayItem.dayNo.toString());
+                              if (SahandDatePicker.singleTapSelect)
+                                Navigator.of(context).pop();
                             });
                           },
                           child: dayItems[index]);

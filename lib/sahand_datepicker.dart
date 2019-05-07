@@ -11,8 +11,9 @@ class SahandDatePicker {
       const MethodChannel('sahand_datepicker_plugin');
   static StreamController streamController = StreamController.broadcast();
 
+  static bool singleTapSelect;
 
-  static Future<String> pickDate (BuildContext context , {int year = 1330 , int month = 1, int fontSize = 14, int extraHeight = 0 , Color borderColor, Color color1 , Color color2 ,Color dateBackColor}) async {
+  static Future<String> pickDate (BuildContext context , {int year = 1330 , int month = 1, int fontSize = 14, int extraHeight = 0 , Color borderColor, Color color1 , Color color2 ,Color dateBackColor,bool singleTapSelect = false}) async {
     if (borderColor != null)
       CustomColors.borderColor = borderColor;
     if (color1 != null)
@@ -21,6 +22,7 @@ class SahandDatePicker {
       CustomColors.color2 = color2;
     if (dateBackColor != null)
       CustomColors.dateBackColor = dateBackColor;
+    SahandDatePicker.singleTapSelect = singleTapSelect;
 
     String pickedDate = "";
     streamController.stream.listen((data) {
