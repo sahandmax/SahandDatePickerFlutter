@@ -8,9 +8,10 @@ class monthWidget extends StatefulWidget {
   String monthName;
   int month;
   int year;
+  int fontSize;
 
 
-  monthWidget({this.monthName , this.month , this.year});
+  monthWidget({this.monthName , this.month , this.year,this.fontSize});
 
   createState() => monthWidgetState();
 }
@@ -39,9 +40,9 @@ class monthWidgetState extends State<monthWidget> {
       if ((i - firstWeekDay + 1) > 31)
         continue;
         if (i< firstWeekDay)
-        dayItems.add(DayItem(empty: true,));
+        dayItems.add(DayItem(widget.fontSize,empty: true,));
         else
-        dayItems.add(DayItem(dayNo: (i - firstWeekDay + 1).toString(),isSelected: false,empty: false,));
+        dayItems.add(DayItem(widget.fontSize,dayNo: (i - firstWeekDay + 1).toString(),isSelected: false,empty: false,));
     }
 
   }
@@ -51,13 +52,13 @@ class monthWidgetState extends State<monthWidget> {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-
+    TextStyle weekDayTextStyle = TextStyle(fontSize: widget.fontSize.toDouble());
 
    return Container(
       width: 300,
       child:
       Column(children: [
-        Text(widget.monthName),
+        Text(widget.monthName,style: weekDayTextStyle,),
       Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
@@ -79,14 +80,14 @@ class monthWidgetState extends State<monthWidget> {
                   continue;
                 }
                 dayItem.isSelected = false;
-                dayItems[position] = DayItem(dayNo: dayItem.dayNo,isSelected: false,empty: false,);
+                dayItems[position] = DayItem(widget.fontSize,dayNo: dayItem.dayNo,isSelected: false,empty: false,);
                 position++;
               }
               DayItem dayItem = dayItems[index];
 //              dayItem.isSelected = true;
                 if (dayItem.empty)
                   return;
-                dayItems[index] = DayItem(dayNo: dayItem.dayNo,isSelected: true,empty: false,);
+                dayItems[index] = DayItem(widget.fontSize,dayNo: dayItem.dayNo,isSelected: true,empty: false,);
                 SahandDatePicker.streamController.sink.add(widget.year.toString() +"/" + widget.month.toString()+ "/" + dayItem.dayNo.toString());
               });
             },child: dayItems[index]);
@@ -105,13 +106,13 @@ class monthWidgetState extends State<monthWidget> {
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
 
-          Text("شنبه"),
-          Text("یکشنبه"),
-          Text("دوشنبه"),
-          Text("سه شنبه"),
-          Text("چهارشنبه"),
-          Text("پنج شنبه"),
-          Text("جمعه"),
+          Text("شنبه",style: weekDayTextStyle,),
+          Text("یکشنبه",style: weekDayTextStyle,),
+          Text("دوشنبه",style: weekDayTextStyle,),
+          Text("سه شنبه",style: weekDayTextStyle,),
+          Text("چهارشنبه",style: weekDayTextStyle,),
+          Text("پنج شنبه",style: weekDayTextStyle,),
+          Text("جمعه",style: weekDayTextStyle,),
         ],),)
       ],),],),);
 

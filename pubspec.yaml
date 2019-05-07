@@ -1,8 +1,8 @@
 name: sahand_datepicker_plugin
 description: Sahand Date Picker
-version: 0.0.1
-author:
-homepage:
+version: 0.0.4
+author: Sahand Zokaei
+homepage: https://github.com/sahandmax/SahandDatePickerFlutter
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

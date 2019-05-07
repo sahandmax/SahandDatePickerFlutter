@@ -12,7 +12,16 @@ class SahandDatePicker {
   static StreamController streamController = StreamController.broadcast();
 
 
-  static Future<String> pickDate (BuildContext context , int year , int month) async {
+  static Future<String> pickDate (BuildContext context , {int year = 1330 , int month = 1, int fontSize = 14, int extraHeight = 0 , Color borderColor, Color color1 , Color color2 ,Color dateBackColor}) async {
+    if (borderColor != null)
+      CustomColors.borderColor = borderColor;
+    if (color1 != null)
+      CustomColors.color1 = color1;
+    if (color2 != null)
+      CustomColors.color2 = color2;
+    if (dateBackColor != null)
+      CustomColors.dateBackColor = dateBackColor;
+
     String pickedDate = "";
     streamController.stream.listen((data) {
       pickedDate = data;
@@ -29,9 +38,9 @@ class SahandDatePicker {
         Container(
           decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.all(Radius.circular(5))),
           width: 300,
-          height: 400,
+          height: 400 + extraHeight.toDouble(),
           margin: EdgeInsets.all(2),
-          child: PickerMaster(month: month , year: year,),
+          child: PickerMaster(month: month , year: year,fontSize: fontSize,extraHeight: extraHeight,),
         ),),
 
       );

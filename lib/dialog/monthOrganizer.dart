@@ -5,7 +5,9 @@ class monthOrganizer extends StatefulWidget {
 
   int year;
   int month;
-  monthOrganizer({this.year, this.month});
+  int fontSize;
+  int extraHeight;
+  monthOrganizer({this.year, this.month,this.fontSize,this.extraHeight});
 
   createState() => monthOrganizerState();
 }
@@ -27,12 +29,12 @@ class monthOrganizerState extends State<monthOrganizer> {
     // TODO: implement build
     return Container(
       width: 320,
-      height: 287,
+      height: 287 + widget.extraHeight.toDouble(),
       child: PageView.builder(
         itemBuilder: (BuildContext context, int yearIndex) {
           return Container(
             width: 320,
-            height: 287,
+            height: 287 + widget.extraHeight.toDouble(),
             child: PageView.builder(
               itemBuilder: (BuildContext context, int monthIndex) {
                 int year = 1330 + yearIndex;
@@ -80,6 +82,7 @@ class monthOrganizerState extends State<monthOrganizer> {
                   monthName: year.toString() + " " + monthName + " ماه",
                   month: month,
                   year: year,
+                  fontSize: widget.fontSize,
 
                 );
               },

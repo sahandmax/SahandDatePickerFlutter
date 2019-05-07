@@ -6,8 +6,9 @@ class DayItem extends StatefulWidget {
   bool isSelected;
   String dayNo;
   bool empty;
+  int fontSize;
 
-  DayItem({this.isSelected, this.dayNo, this.empty});
+  DayItem(this.fontSize,{this.isSelected, this.dayNo, this.empty});
 }
 
 class DateItemState extends State<DayItem> {
@@ -43,7 +44,7 @@ class DateItemState extends State<DayItem> {
          decoration: BoxDecoration(color: CustomColors.dateBackColor,
              borderRadius: BorderRadius.all(Radius.circular(5))),
         margin: EdgeInsets.all(2),
-        child: Center(child: Text(widget.dayNo)),
+        child: Center(child: Text(widget.dayNo,style: TextStyle(fontSize: widget.fontSize.toDouble()),)),
       ),
     );
   }
