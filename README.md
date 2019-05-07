@@ -2,14 +2,11 @@
 A jalali date picker for flutter
 
 
-usage
-
-SahandDatePicker.pickDate(context , 1380, 3).then((picked) {
-<br>
+## Usage
+````dart
+SahandDatePicker.pickDate(context , year: 1380,month: 1,fontSize: 12,extraHeight: 0).then((picked) {
               setState(() {
-              <br>
                 pickedDate = picked;
-                <br>
               });
-              <br>
             });
+````
