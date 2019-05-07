@@ -45,7 +45,7 @@ class MainState extends State<Main> {
           child: RaisedButton(
               child: Text(pickedDate),
               onPressed: () {
-            SahandDatePicker.pickDate(context , year: 1380,month: 1,fontSize: 12,extraHeight: 0).then((picked) {
+            SahandDatePicker.pickDate(context , year: 1380,month: 1,fontSize: 15,extraHeight: 20).then((picked) {
               setState(() {
                 pickedDate = picked;
               });

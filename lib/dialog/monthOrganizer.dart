@@ -1,8 +1,10 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:sahand_datepicker_plugin/dialog/monthWidget.dart';
 
 class monthOrganizer extends StatefulWidget {
-
+  static StreamController monthChanger = StreamController.broadcast();
   int year;
   int month;
   int fontSize;
@@ -13,20 +15,46 @@ class monthOrganizer extends StatefulWidget {
 }
 
 class monthOrganizerState extends State<monthOrganizer> {
+
   int SelectedMonth = 0;
   int SelectedYear = 0;
+  PageController monthPageController;
+  PageController yearPageController;
 
   @override
   void initState() {
     super.initState();
     SelectedYear = (widget.year - 1330);
     SelectedMonth = (widget.month - 1);
+    monthOrganizer.monthChanger.stream.listen((data) {
+      String command = data;
+      if (command == "next") {
+//          setState(() {
+      if (SelectedMonth < 11) {
+        SelectedMonth++;
+        monthPageController.jumpToPage(SelectedMonth);
+      }
+//          });
+      }
+
+      if (command == "prev") {
+//       setState(() {
+      if (SelectedMonth > 0) {
+        SelectedMonth--;
+        monthPageController.jumpToPage(SelectedMonth);
+      }
+//       });
+      }
+    });
   }
 
 
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
+    monthPageController = PageController(initialPage: SelectedMonth);
+    yearPageController = PageController(initialPage: SelectedYear);
+
     return Container(
       width: 320,
       height: 287 + widget.extraHeight.toDouble(),
@@ -94,7 +122,7 @@ class monthOrganizerState extends State<monthOrganizer> {
                   SelectedMonth = selected;
                 });
               },
-              controller: PageController(initialPage: SelectedMonth),
+              controller: monthPageController,
             ),
           );
         },
@@ -105,7 +133,7 @@ class monthOrganizerState extends State<monthOrganizer> {
             SelectedYear = selected;
           });
         },
-        controller: PageController(initialPage: SelectedYear),
+        controller: yearPageController,
       ),
     );
   }
