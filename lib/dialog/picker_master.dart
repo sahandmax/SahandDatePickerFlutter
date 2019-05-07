@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sahand_datepicker_plugin/dialog/CustomButton.dart';
 import 'package:sahand_datepicker_plugin/dialog/monthOrganizer.dart';
 import 'package:sahand_datepicker_plugin/dialog/monthWidget.dart';
+import 'package:sahand_datepicker_plugin/sahand_datepicker.dart';
 
 
 class PickerMaster extends StatefulWidget {
@@ -33,6 +34,7 @@ class PickerMasterState extends State<PickerMaster> {
           fontSize: widget.fontSize,
           extraHeight: widget.extraHeight,
         ),
+        SahandDatePicker.singleTapSelect?Container():
         CustomRaisedButtom(
           width: 200,
           padding: EdgeInsets.all(8),

@@ -40,7 +40,7 @@ class SahandDatePicker {
         Container(
           decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.all(Radius.circular(5))),
           width: 300,
-          height: 400 + extraHeight.toDouble(),
+          height: (singleTapSelect?340:400) + extraHeight.toDouble(),
           margin: EdgeInsets.all(2),
           child: PickerMaster(month: month , year: year,fontSize: fontSize,extraHeight: extraHeight,),
         ),),
