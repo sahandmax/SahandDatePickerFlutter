@@ -4,10 +4,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5e07b32-8d2d-452c-bac4-1f9f889f8189" name="Default Changelist" comment="">
+    <list default="true" id="a5e07b32-8d2d-452c-bac4-1f9f889f8189" name="Default Changelist" comment="signleTap dialog size issue fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dialog/picker_master.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dialog/picker_master.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sahand_datepicker.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sahand_datepicker.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dialog/monthWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dialog/monthWidget.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -30,51 +29,52 @@
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="7727" />
-          <entry key="txt" value="119" />
-          <entry key="yaml" value="46" />
+          <entry key="dart" value="7880" />
+          <entry key="txt" value="161" />
+          <entry key="yaml" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="7727" />
-          <entry key="PLAIN_TEXT" value="119" />
-          <entry key="YAML" value="46" />
+          <entry key="Dart" value="7880" />
+          <entry key="PLAIN_TEXT" value="161" />
+          <entry key="YAML" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="dart" value="65" />
+          <entry key="dart" value="71" />
           <entry key="gitignore" value="1" />
           <entry key="java" value="2" />
           <entry key="md" value="1" />
-          <entry key="yaml" value="6" />
+          <entry key="yaml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="65" />
+          <entry key="Dart" value="71" />
           <entry key="JAVA" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="YAML" value="6" />
+          <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/sahand_datepicker.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="346">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -92,21 +92,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/dialog/monthOrganizer.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="105">
               <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
@@ -118,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/dialog/picker_master.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="285">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -130,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/dialog/monthWidget.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="158" column="60" selection-start-line="158" selection-start-column="60" selection-end-line="158" selection-end-column="60" />
+            <state relative-caret-position="289">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -142,17 +130,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/persian_date-0.1.5/lib/persian_date.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="489" column="12" selection-start-line="489" selection-start-column="8" selection-end-line="489" selection-end-column="12" />
+            <state relative-caret-position="-140">
+              <caret line="257" column="66" selection-start-line="257" selection-start-column="64" selection-end-line="257" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -178,6 +166,8 @@
       <find>ماه</find>
       <find>dayitem</find>
       <find>color</find>
+      <find>29</find>
+      <find>persian</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,11 +185,11 @@
         <option value="$PROJECT_DIR$/lib/resources/customcolors.dart" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/dialog/monthOrganizer.dart" />
-        <option value="$PROJECT_DIR$/lib/dialog/monthWidget.dart" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/dialog/picker_master.dart" />
-        <option value="$PROJECT_DIR$/example/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/sahand_datepicker.dart" />
+        <option value="$PROJECT_DIR$/example/lib/main.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/dialog/monthWidget.dart" />
       </list>
     </option>
   </component>
@@ -214,40 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="dialog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -279,6 +235,51 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="dialog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sahand_datepicker_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sahand_datepicker_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -346,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557229121821</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="signleTap dialog size issue fixed">
+      <created>1557230811196</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557230811196</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -362,7 +370,7 @@
     <frame x="1050" y="0" width="1680" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="0" y="50" width="1050" height="1630" id="Project" order="0" type="WINDOWED" visible="true" weight="0.249694" />
+      <window_info content_ui="combo" x="0" y="40" width="1050" height="1640" id="Project" order="0" type="WINDOWED" visible="true" weight="0.249694" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -427,7 +435,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="singleTapSelect Added" />
     <MESSAGE value="version 0.0.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.0.6" />
+    <MESSAGE value="signleTap dialog size issue fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="signleTap dialog size issue fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -438,12 +447,12 @@
         </line-breakpoint>
         <line-breakpoint type="Dart">
           <url>file://$PROJECT_DIR$/lib/dialog/monthWidget.dart</url>
-          <line>144</line>
+          <line>148</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint type="Dart">
           <url>file://$PROJECT_DIR$/lib/dialog/monthWidget.dart</url>
-          <line>134</line>
+          <line>138</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint type="Dart">
@@ -605,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/persian_date-0.1.5/lib/persian_date.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="489" column="12" selection-start-line="489" selection-start-column="8" selection-end-line="489" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/widgets/page_view.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -626,20 +628,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/dialog/monthOrganizer.dart">
+    <entry file="file://$PROJECT_DIR$/lib/dialog/CustomButton.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="-120">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dialog/picker_master.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/persian_date-0.1.5/lib/persian_date.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="257" column="66" selection-start-line="257" selection-start-column="64" selection-end-line="257" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sahand_datepicker.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="47" column="119" selection-start-line="47" selection-start-column="119" selection-end-line="47" selection-end-column="119" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -650,50 +679,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/dialog/monthWidget.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="158" column="60" selection-start-line="158" selection-start-column="60" selection-end-line="158" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/dialog/CustomButton.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/dialog/picker_master.dart">
+    <entry file="file://$PROJECT_DIR$/lib/dialog/monthOrganizer.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sahand_datepicker.dart">
+    <entry file="file://$PROJECT_DIR$/lib/dialog/monthWidget.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="289">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

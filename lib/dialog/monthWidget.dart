@@ -39,6 +39,10 @@ class monthWidgetState extends State<monthWidget> {
     if (firstWeekDay > 7) firstWeekDay = firstWeekDay - 7;
 
     for (int i = 1; i <= 40; i++) {
+      if (widget.month == 12)
+        if (!sLeapYear(widget.year))
+          if ((i - firstWeekDay + 1) > 29)
+            continue;
       if (widget.month > 6) {
         if ((i - firstWeekDay + 1) > 30) continue;
       }
@@ -208,5 +212,13 @@ class monthWidgetState extends State<monthWidget> {
         ],
       ),
     );
+  }
+  bool sLeapYear(int year)
+  {
+    List<int> ary = [1, 5, 9, 13, 17, 22, 26, 30];
+     int b = year % 33;
+    if (ary.contains(b))
+      return true;
+    return false;
   }
 }
